@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Greetings from Alert System</h1>
+        </header>
+
+        <main>
+            <p>Email Address: {{to_address}}</p>
+            <p>Greetings from Alert System!</p>
+            <p>Hello {{to_name}}! This is a very long message demonstrating how to send body of a message.</p>
+            <p>Best regards, <br>{{ from_name }}</p>
+        </main>
+
+        <footer>
+            This email was sent from <i>{{from_org}}</i>.
+        </footer>
+    </div>
+</body>
+</html>

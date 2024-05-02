@@ -1,0 +1,6 @@
+{
+    "to_name": "John Doe",
+    "to_address": "john.doe@example.com",
+    "from_name": "Your friendly Acme Team",
+    "from_org": "Acme Corporation"
+}
